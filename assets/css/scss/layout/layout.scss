@@ -1,0 +1,215 @@
+@import '../variable/variable.scss';
+
+body{background:$sectionColor; height: auto;}
+#wrap {width: 100%;}
+section{height:100%;}
+.container {
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 40px;
+    clear: both;
+    box-sizing: border-box;
+}
+.title_box{
+    width:100%; text-align: center;
+    span{font-size: 24px; font-family: $medium; color:$subColor;}
+    h3{font-family: $bold; font-size: 48px; color: white; margin-bottom:40px;}
+}
+
+@include desktop{
+    .container {max-width: 1070px; padding: 0px 20px;}
+    .title_box{
+        span{font-size: 20px; font-family: $medium; color:$subColor;}
+        h3{font-size: 35px; color: white; margin-bottom:28px;}
+    }
+}
+
+@include tablet{
+    .container {padding: 0px 16px;}
+    .title_box{
+        span{font-size: 20px;}
+        h3{font-size: 30px; margin-bottom:20px;}
+    }
+}
+
+// Header
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    &.scrolling{
+        background-color:$sectionColor;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        .header_inner{padding:25px 0 !important;}
+    }
+    .header_inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+        transition: all 0.3s ease;
+        #gnb_btn{
+            display:none;
+        }
+        .logo {
+            h1 {
+                display: inline-block;
+                a {
+                    display: block;
+                    img {
+                        max-width: 200px;
+                        display: block;
+                    }
+                }
+            }
+        }
+        nav {
+            ul {
+                li {
+                    font-size: 0;
+                    display: inline-block;
+                    &.resume{
+                        a{padding:8px 24px;}
+                    }
+                    &:not(:last-child){
+                        margin-right: 35px;
+                    }
+                    a {
+                        font-size: 16px;
+                        color: white;
+                        &:hover{
+                            color:$subColor;
+                            transition: all 0.3s;
+                        }
+                    }
+                    &.active {
+                        a {
+                            color: $subColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include tablet{
+    header {
+        .container {
+            .header_inner {
+                display: block;
+                padding: 16px 0;
+                #gnb_btn{
+                    display:block;
+                    position: absolute;
+                    right:16px;
+                    width:30px;
+                    height:30px;
+                    color:white;
+                    span{
+                        position: absolute;
+                        display: block;
+                        width: 100%;
+                        height: 2px;
+                        background-color: white;
+                        transition: all 0.5s;
+                        &:nth-child(1){top:5px;}
+                        &:nth-child(2){top:50%; transform: translateY(-50%);}
+                        &:nth-child(3){bottom:5px;}
+                    }
+                }
+                .logo {
+                    img {
+                        max-width: 150px;
+                    }
+                }
+                nav {
+                    display:none;
+                }
+            }
+        }
+    }
+}
+// Header
+
+// Moible Gnb
+@include tablet{
+    // Mobile Header
+    .mobile_gnb_wrap {
+        display:block; 
+        height: 100%; 
+        position:fixed; top: 0; right: 0; 
+        overflow: hidden; z-index: 1000; 
+            .mobile_gnb_overlay {
+                display:block; 
+                width:100%; height:100%; 
+                position:absolute; top:0; right:0; 
+                background-color: rgba(0, 0, 0, 0.5); 
+                cursor: pointer;
+            }
+            .mobile_gnb {
+                display: flex; flex-direction: column;
+                justify-content: center; align-items: center;
+                width:70%; max-width:500px; height:100%; 
+                position: absolute; top:0; right:0; 
+                overflow-y:auto; 
+                background-color: rgba(243, 80, 59, 1);
+                z-index: 99; 
+                .gnb_close {
+                    display: inline-block; 
+                    position:absolute; right: 20px; top: 20px; 
+                    cursor:pointer; z-index: 100;
+                    font-size: 32px;
+                    color:white;
+                }
+                ul {
+                    font-size: 0;
+                    li{
+                        position: relative;
+                        &.active{
+                            a{position: relative;
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left:calc(100% + 10px);
+                                display:inline-block;
+                                width:32px; height:32px;
+                                background:center/32px no-repeat url('../../../img/common/icon/bookmark.png')
+                            }}
+                        }
+                        &:not(:last-child){
+                            border-bottom:1px dashed white;
+                        }
+                        a{
+                            display:block;
+                            padding:32px;
+                            color:#fff; 
+                            font-size:16px; 
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    // Mobile Header
+}
+// Moible Gnb
+
+// Footer
+footer{
+    background-color:#343c55;
+    .footer_inner{
+        padding:30px 0;
+    }
+}
+@include mobile{
+    .footer_inner{
+        text-align: center;
+    }
+}
+// Footer

@@ -1,0 +1,17 @@
+﻿.btn {display: inline-block; padding:12px 40px; transition: all 0.3s; cursor: pointer; outline: none; -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}
+
+.btn_orange{background-color:#f3503b; color:#fff; box-sizing:border-box; border-radius:50px;}
+.btn_orange:hover{background:#142eb5; color:#fff !important;}
+
+.btn_blue{background-color:#142eb5;  color:#fff; box-sizing:border-box; border-radius:50px;}
+.btn_blue:hover{background-color:#f3503b;}
+
+.btn_gray {background-color:#f4f4f4;  color:#333; box-sizing:border-box; border-radius:50px;}
+.btn_white {border:1px solid white;   color:white !important; border-radius:50px;}
+
+.btn_underline {border-bottom:1px solid #fff;  padding:0; color:rgba(255, 255, 255, 0.7);}
+.btn_disabled {opacity: 0.3;} 
+
+@media (max-width:767px){
+.btn {padding:8px 24px;}
+}
