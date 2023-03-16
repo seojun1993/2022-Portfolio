@@ -19,36 +19,36 @@ mysqli_query($conn,"set names utf8");
     <meta property="og:description" content="웹 퍼블리셔 포트폴리오">
 
     <!-- 파비콘 -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/fav/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/fav//apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/fav//apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/fav//apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/fav//apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/fav//apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/fav//apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/fav//apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/fav//android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/fav//favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav//favicon-16x16.png">
-    <link rel="manifest" href="assets/img/fav//manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/fav//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/fav//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/fav//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/fav//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/fav//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/fav//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/fav//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/fav//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/fav//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/fav//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/fav//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/fav//favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/fav//manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/fav//ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/assets/img/fav//ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- 파비콘 -->
 
     <!-- 기본 CSS -->
-    <link rel="stylesheet" href="assets/css/common/common.css">
-    <link rel="stylesheet" href="assets/css/common/style.css">
-    <link rel="stylesheet" href="assets/css/common/button.css">
+    <link rel="stylesheet" href="/assets/css/common/common.css">
+    <link rel="stylesheet" href="/assets/css/common/style.css">
+    <link rel="stylesheet" href="/assets/css/common/button.css">
     <!-- 기본 CSS -->
 
     <!-- Layout CSS -->
-    <link rel="stylesheet" href="assets/css/scss/layout/layout.css">
-    <link rel="stylesheet" href="assets/css/scss/loading/loading.css">
-    <link rel="stylesheet" href="assets/css/scss/main.css">
-    <link rel="stylesheet" href="assets/css/common/animation.css">
+    <link rel="stylesheet" href="/assets/css/scss/layout/layout.css">
+    <link rel="stylesheet" href="/assets/css/scss/loading/loading.css">
+    <link rel="stylesheet" href="/assets/css/scss/main.css">
+    <link rel="stylesheet" href="/assets/css/common/animation.css">
     <!-- Layout CSS -->
 
     <!-- 웹폰트아이콘 -->
@@ -56,17 +56,17 @@ mysqli_query($conn,"set names utf8");
     <!-- 웹폰트아이콘 -->
 
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="assets/css/plugin/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/css/plugin/swiper-bundle.min.css">
     <!-- Swiper CSS -->
 
-    <script src="assets/js/lib/jquery.js"></script>
-    <script src="assets/js/layout/loading.js"></script>
-    <script src="assets/js/layout/header.js"></script>
-    <script src="assets/js/layout/main.js"></script>
-    <script src="assets/js/layout/txtanimation.js"></script>
-    <script src="assets/js/layout/top.js"></script>
-    <script src="assets/js/layout/gnb.js"></script>
-    <script src="assets/js/layout/star.js"></script>
+    <script src="/assets/js/lib/jquery.js"></script>
+    <script src="/assets/js/layout/loading.js"></script>
+    <script src="/assets/js/layout/header.js"></script>
+    <script src="/assets/js/layout/main.js"></script>
+    <script src="/assets/js/layout/txtanimation.js"></script>
+    <script src="/assets/js/layout/top.js"></script>
+    <script src="/assets/js/layout/gnb.js"></script>
+    <script src="/assets/js/layout/star.js"></script>
 </head>
 
 <body>
@@ -88,7 +88,7 @@ mysqli_query($conn,"set names utf8");
                         <span></span>
                     </a>
                     <div class="logo">
-                        <h1><a href="#;"><img src="assets/img/common/logo.png" alt="logo"><span class="hide_txt">logo</span></a></h1>
+                        <h1><a href="#;"><img src="/assets/img/common/logo.png" alt="logo"><span class="hide_txt">logo</span></a></h1>
                     </div>
                     <nav>
                         <ul>
@@ -98,7 +98,7 @@ mysqli_query($conn,"set names utf8");
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#timeline">Timeline</a></li>
                             <li><a href="#contact">Contact</a></li>
-                            <li class="resume"><a href="#;" class="btn btn_orange">Resume</a></li>
+                            <li class="resume"><a href="/assets/resume.pdf" class="btn btn_orange">Resume</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -118,7 +118,7 @@ mysqli_query($conn,"set names utf8");
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#timeline">Timeline</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li class="resume"><a href="#;">Resume</a></li>
+                    <li class="resume"><a href="/assets/resume.pdf">Resume</a></li>
                 </ul>
 
             </nav>
@@ -128,13 +128,11 @@ mysqli_query($conn,"set names utf8");
         <!-- Article01 -->
         <article class="visual_article" id="home">
             <h2 class="hide_txt">Visual article</h2>
-            <div class="bg">
-                <div></div>
-            </div>
+            <div class="bg"></div>
             <div class="container">
                 <section>
                     <div class="content">
-                        <div class="visual_left">
+                        <div class="visual">
                             <div class="txt_wrap">
                                 <span class="intro_desc">이서준의</span>
                                 <h2>Portfolio</h2>
@@ -142,7 +140,7 @@ mysqli_query($conn,"set names utf8");
                                 <div class="org_box">
                                     <span class="typing_txt">Web Design</span>
                                     <span class="typing_txt">Web Publishing</span>
-                                    <span class="typing_txt">to keep growing</span>
+                                    <span class="typing_txt">Front Development</span>
                                 </div>
                                 <div class="typing_box">
                                     <span>I Like</span>
@@ -151,23 +149,14 @@ mysqli_query($conn,"set names utf8");
 
                                 <p>코딩 할 때 가장 행복한 웹 퍼블리셔입니다.</p>
                                 <p>단기간 내 목표는 Mysql, Php, React 학습입니다.<br>
-                                    장기적인 목표는 Front 개발 및<br>
-                                    Html canvas를 활용한<br class="mobile_render" /> 웹 인터랙션 개발자가 되는것입니다.</p>
+                                    장기적인 목표는 Front 개발 및 Html canvas를 활용한<br class="mobile_render" /> 웹 인터랙션 개발자가 되는것입니다.</p>
 
                                 <h3 class="stroke_txt stroke1">SEOJUN</h3>
                                 <h3 class="stroke_txt stroke2">LEE</h3>
                             </div>
                             <div class="intro_btn">
                                 <a href="#;" class="contact_btn btn btn_blue">Contact</a>
-                                <a href="#;" class="about_btn btn">About</a>
-                            </div>
-                        </div>
-                        <div class="visual_right">
-                            <div class="img_box">
-                                <img src="assets/img/layout/visual_me1_1.jpg" alt="my picture">
-                                <div class="img_deco circle">
-                                    <img src="assets/img/layout/circle.png" alt="circle">
-                                </div>
+                                <a href="#;" class="about_btn btn btn_orange">About</a>
                             </div>
                         </div>
                     </div>
@@ -190,10 +179,9 @@ mysqli_query($conn,"set names utf8");
                                 <dl>
                                     <dt><span>01</span> 성격</dt>
                                     <dd>
-                                        <p>조용하고 차분한 유년시절을 보냈습니다.<br class="mobile_render" /><br class="tablet_render /">
-                                            몰두 하는것을 좋아하고 또 잘합니다.<br class="mobile_render" /><br class="tablet_render /">
-                                            풀리지 않는게 있으면 끝까지 해결해야 
-                                            하는 성격입니다. 
+                                        <p>조용하고 차분한 유년시절을 보냈습니다.<br/>
+                                            단계별 프로세스로 문제를 해결합니다.<br/>
+                                            풀리지 않는게 있으면 끝까지 해결하는 성격입니다. 
                                         </p>
                                     </dd>
                                 </dl>
@@ -203,9 +191,8 @@ mysqli_query($conn,"set names utf8");
                                 <dl>
                                     <dt><span>02</span> 집중</dt>
                                     <dd>
-                                        <p>개발에 가장 필요한 것은
-                                            노력과 집중이라고 생각합니다.<br class="mobile_render" /><br class="tablet_render /">
-                                            같은 시간을 앉아있어도 집중력에 따라
+                                        <p>개발에 필요한 것은 <br class="mobile_render"/>노력과 집중입니다.<br/>
+                                            같은 시간을 앉아있어도 집중력에 따라<br /> 
                                             업무 효율이 달라진다고 생각합니다.</p>
                                     </dd>
                                 </dl>
@@ -215,9 +202,9 @@ mysqli_query($conn,"set names utf8");
                                 <dl>
                                     <dt><span>03</span> 협업</dt>
                                     <dd>
-                                        <p>IT에서 가장 중요한 것은 협업입니다.<br class="mobile_render" /><br class="tablet_render /">
-                                            기획, 디자인 등 다른 업무를 가진 사람들과
-                                            좋은 완성도를 내기 위해 끊임없는 소통을 해야합니다.
+                                        <p>IT에서 가장 중요한 것은 협업입니다.<br/>
+                                            기획, 디자인 등 다른 업무를 가진 사람들과<br/>
+                                            좋은 결과물을 내기 위해 끊임없는 소통을 해야합니다.
                                         </p>
                                     </dd>
                                 </dl>
@@ -231,31 +218,31 @@ mysqli_query($conn,"set names utf8");
                     <div class="content">
                         <div class="left">
                             <div class="img_box">
-                                <img src="assets/img/layout/visual_me3.jpg" alt="img">
-                                <span class="icon_01 fadeInUp"><img src="assets/img/common/icon/icon_html.png" alt="img"></span>
-                                <span class="icon_02 fadeInUp"><img src="assets/img/common/icon/icon_css.png" alt="img"></span>
-                                <span class="icon_03 fadeInUp"><img src="assets/img/common/icon/icon_js.png" alt="img"></span>
-                                <span class="icon_04 fadeInUp"><img src="assets/img/common/icon/icon_php.png" alt="img"></span>
+                                <img src="/assets/img/layout/visual_me3.jpg" alt="img">
+                                <span class="icon_01 fadeInUp"><img src="/assets/img/common/icon/icon_html.png" alt="img"></span>
+                                <span class="icon_02 fadeInUp"><img src="/assets/img/common/icon/icon_css.png" alt="img"></span>
+                                <span class="icon_03 fadeInUp"><img src="/assets/img/common/icon/icon_js.png" alt="img"></span>
+                                <span class="icon_04 fadeInUp"><img src="/assets/img/common/icon/icon_php.png" alt="img"></span>
                             </div>
                         </div>
                         <div class="right">
                             <div class="title_box">
                                 <span>About Me</span>
                                 <h3>
-                                    저는 자유롭고 감각적인<br />웹 퍼블리셔입니다.
+                                    저는 노련하고 감각적인<br />웹 퍼블리셔입니다.
                                 </h3>
                                 <p>
                                     안녕하세요. <br />
-                                      UI/UX및 마크업, SEO, 크로스 브라우징 등<br class="mobile_render" /> 
-                                      웹퍼블리셔 기술에 관심을 기울이고<br/>
-                                      다양한 웹 인터랙션에 관심이 많은<br class="mobile_render" /> 
-                                      개발자 이서준입니다. 
+                                    UI/UX 개발 및 마크업, SEO, 크로스 브라우징 등 퍼블리싱 기술에<br class="mobile_render" /> <br/>
+                                    관심을 가지고 인터랙션 웹에 호기심이 많은 개발자 이서준입니다. <br/>
+                                    
+                                    
                                 </p>
                                 <p>
-                                    총 경력은 웹 디자인/퍼블리싱 1년 + <br class="mobile_render" />
-                                    퍼블리싱 1년 6개월입니다. <br />
-                                    웹 퍼블리셔 및 능력있는<br class="mobile_render" /> 
-                                    프론트엔드 개발자로 성장하고 싶습니다.
+                                    총 경력은 웹 디자인/퍼블리싱 <strong>1년</strong> + <br class="mobile_render" />
+                                    퍼블리싱 <strong>2년 2개월</strong>입니다. <br />
+                                    UI 개발자 및 장기적으로는<br class="mobile_render" /> 
+                                    능력있는 프론트엔드 개발자로 성장하고 싶습니다.
                                 </p>
                                 <a href="#;" class="portfolio_btn btn btn_blue">Portfolio</a>
                             </div>
@@ -270,7 +257,7 @@ mysqli_query($conn,"set names utf8");
                             <li class="fadeInUp">
                                 <div>
                                     <span class="count_num">
-                                        <span class="count" data-from="0" data-to="30">0</span>
+                                        <span class="count" data-from="0" data-to="31">0</span>
                                         <span class="count_plus">+</span>
                                     </span>
                                     <div class="count_desc plus">
@@ -282,19 +269,19 @@ mysqli_query($conn,"set names utf8");
                             <li class="fadeInUp">
                                 <div>
                                     <span class="count_num">
-                                        <span class="count" data-from="0" data-to="4">0</span>
+                                        <span class="count" data-from="0" data-to="5">0</span>
                                         <span class="count_plus">+</span>
                                     </span>
                                     <div class="count_desc plus">
                                         <h3>Skills</h3>
-                                        <p>HTML/CSS/JS/PHP</p>
+                                        <p>HTML/SCSS/JS/REACT/PHP</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="fadeInUp">
                                 <div>
                                     <span class="count_num">
-                                        <span class="count" data-from="0" data-to="3">0</span>
+                                        <span class="count" data-from="0" data-to="4">0</span>
                                     </span>
                                     <div class="count_desc">
                                         <h3>Years</h3>
@@ -318,7 +305,7 @@ mysqli_query($conn,"set names utf8");
                     <div class="title_box">
                         <span>Portfolio</span>
                         <h3>작업 현황</h3>
-                        <p>지난 3년간 웹 퍼블리셔로<br class="mobile_render" /> 근무하며 했던 작업물들입니다.</p>
+                        <p>지난 4년간 웹 퍼블리셔로<br class="mobile_render" /> 근무하며 했던 <strong>작업물</strong>들입니다.</p>
                         <p>DeskTop, Mobile, Responsive 등<br class="mobile_render" /> 설명글 참조하고 봐주시면 감사하겠습니다.</p>
                     </div>
 
@@ -433,7 +420,7 @@ mysqli_query($conn,"set names utf8");
                                     </div>
                                 </a>
                             </li>
-                            <!-- <li class="list fadeInUp">
+                            <li class="list fadeInUp">
                                 <a target="_blank" href="tree/index.html">
                                     <div class="bg"></div>
                                     <div class="overlay"></div>
@@ -445,7 +432,7 @@ mysqli_query($conn,"set names utf8");
                                         </div>
                                     </div>
                                 </a>
-                            </li> -->
+                            </li>
                             <li class="list fadeInUp">
                                 <a href="#;" class="carrot">
                                     <div class="bg"></div>
@@ -487,7 +474,7 @@ mysqli_query($conn,"set names utf8");
                     <div class="title_box">
                         <span>My Skills</span>
                         <h3>기술 현황</h3>
-                        <p>HTML5와 CSS3와 jQuery, JS(ES6+), PHP로<br class="mobile_render" /> 
+                        <p>HTML5와 CSS3와 JS(ES6+), REACT, PHP로<br class="mobile_render" /> 
                             퍼블리싱을 하며 코드 편집기는<br class="mobile_render" /> 
                             Vscode를 사용하고 있습니다.<br />
                             개발 툴로는 Github, 디자인 툴로는<br class="mobile_render" /> 
@@ -527,10 +514,10 @@ mysqli_query($conn,"set names utf8");
                                 </li>
                                 <li>
                                     <div class="skills_desc">
-                                        <span>JQUERY</span>
-                                        <span>90%</span>
+                                        <span>JAVA SCRIPT</span>
+                                        <span>85%</span>
                                     </div>
-                                    <div class="progress_inner" data-minvalue="0" data-maxvalue="90">
+                                    <div class="progress_inner" data-minvalue="0" data-maxvalue="85">
                                         <div class="bg">
                                             <div class="bar">
                                                 <div class="bar_in"></div>
@@ -545,10 +532,10 @@ mysqli_query($conn,"set names utf8");
                             <ul>
                                 <li>
                                     <div class="skills_desc">
-                                        <span>JAVA SCRIPT</span>
-                                        <span>75%</span>
+                                        <span>SCSS</span>
+                                        <span>70%</span>
                                     </div>
-                                    <div class="progress_inner" data-minvalue="0" data-maxvalue="75">
+                                    <div class="progress_inner" data-minvalue="0" data-maxvalue="70">
                                         <div class="bg">
                                             <div class="bar">
                                                 <div class="bar_in"></div>
@@ -558,10 +545,10 @@ mysqli_query($conn,"set names utf8");
                                 </li>
                                 <li>
                                     <div class="skills_desc">
-                                        <span>SCSS</span>
-                                        <span>70%</span>
+                                        <span>REACT</span>
+                                        <span>65%</span>
                                     </div>
-                                    <div class="progress_inner" data-minvalue="0" data-maxvalue="70">
+                                    <div class="progress_inner" data-minvalue="0" data-maxvalue="65">
                                         <div class="bg">
                                             <div class="bar">
                                                 <div class="bar_in"></div>
@@ -737,16 +724,12 @@ mysqli_query($conn,"set names utf8");
                                     <div class="swiper-slide">
                                         <h3 class="title">그린컴퓨터 아카데미</h3>
                                         <div class="desc">
-                                            <p>2019.04 종로 그린 컴퓨터 아카데미<br /> 
-                                                웹디자인/웹퍼블리셔 과정 수강
-                                            </p>
-                                            <p>
-                                                2019.09 산업인력공단 주최<br />
-                                                웹디자인 기능사 자격증 취득
-                                            </p>
+                                            <p>2019.04 종로 그린 컴퓨터 아카데미<br /> 웹디자인/웹퍼블리셔 과정 수강</p>
+                                            <p>2019.09 산업인력공단 주최<br />웹디자인 기능사 자격증 취득</p>
                                         </div>
                                         <span class="date">2019.04 - 2019.10</span>
                                     </div>
+
                                     <div class="swiper-slide">
                                         <h3 class="title">디자인 교과서</h3>
                                         <div class="desc">
@@ -755,13 +738,23 @@ mysqli_query($conn,"set names utf8");
                                         </div>
                                         <span class="date">2019.11 - 2020.10</span>
                                     </div>
+
                                     <div class="swiper-slide">
                                         <h3 class="title">타이드플로</h3>
                                         <div class="desc">
                                             <p>2021.02 서울 금천구에 위치한<br />타이드플로 웹 퍼블리셔로 입사</p>
-                                            <p>자사 서비스 및 국가사업 업무 등<br />현재 재직 중에 있습니다.</p>
+                                            <p>자사 서비스 및 국가사업 등<br/>UI 개발자로 업무</p>
                                         </div>
-                                        <span class="date">2021.02 - Ing</span>
+                                        <span class="date">2021.02 - 2022-08</span>
+                                    </div>
+                                    
+                                    <div class="swiper-slide">
+                                        <h3 class="title">오토브레인</h3>
+                                        <div class="desc">
+                                            <p>2022.09 서울 금천구에 위치한<br />오토브레인 웹 퍼블리셔로 입사</p>
+                                            <p>수입차 관련 웹 서비스 UI/UX 구축 및 유지 보수<br />현재 재직 중에 있습니다.</p>
+                                        </div>
+                                        <span class="date">2022.09 - ing</span>
                                     </div>
                                 </div>
                             </div>
@@ -813,7 +806,7 @@ mysqli_query($conn,"set names utf8");
                                                     <span class="material-icons">email</span>
                                                     <div>
                                                         <p>Email</p>
-                                                        <span><a href="#;">qudcks5078@naver.com</a></span>
+                                                        <span><a href="mailto:qudcks5078@naver.com">qudcks5078@naver.com</a></span>
                                                     </div>
                                                 </div>
                                             </li>
@@ -822,7 +815,7 @@ mysqli_query($conn,"set names utf8");
                                                     <span class="material-icons">phone_iphone</span>
                                                     <div>
                                                         <p>Phone</p>
-                                                        <span>+010 6625 5078</span>
+                                                        <span><a href="tel:010-6625-5078">+010 6625 5078</a></span>
                                                     </div>
                                                 </div>
                                             </li>
@@ -844,7 +837,12 @@ mysqli_query($conn,"set names utf8");
             <div class="container">
                 <div class="footer_inner">
                     <div class="copyright">
-                        <p>Developed by LeeSeoJun © 2022</p>
+                        <span>Developed by LeeSeoJun © 2023</span>
+                    </div>
+                    <div class="git_link">
+                        <a target="_blank" href="https://github.com/Leebyungchan1993/2022-Portfolio">Github 
+                            <span>Click</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -883,9 +881,9 @@ mysqli_query($conn,"set names utf8");
     </div>
     <!-- ajax 모달창 -->
 
-    <script src="assets/js/layout/ajax.js"></script>
-    <script src="assets/js/plugin/swiper-bundle.min.js"></script>
-    <script src="assets/js/layout/custom_swiper.js"></script>
+    <script src="/assets/js/layout/ajax.js"></script>
+    <script src="/assets/js/plugin/swiper-bundle.min.js"></script>
+    <script src="/assets/js/layout/custom_swiper.js"></script>
 </body>
 
 </html>
