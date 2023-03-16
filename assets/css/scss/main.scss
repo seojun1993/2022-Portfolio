@@ -14,6 +14,9 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
         left:0; top:0; right:0; bottom:0;
         width:100%; height:100%;
         background:center/cover no-repeat url('../../img/layout/visual_bg.jpg');
+        @media screen and (max-width:768px){
+            background:center/cover no-repeat url('../../img/layout/m_visual_bg.jpg');
+        }
     }
     .container{
         height:100%;
@@ -22,7 +25,7 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
             display:flex;
             align-items: center;
             justify-content: space-between;
-            .visual_left{
+            .visual{
                 flex: 1;
                 .txt_wrap{
                     position: relative;
@@ -33,14 +36,14 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
                         font-family: $medium;
                     }
                     h2{
-                        font-size: 77px;
+                        font-size: 108px;
                         line-height: 1.1;
                         font-family: $bold;
                         margin-bottom: 24px;
                     }
                     .org_box{display:none;}
                     .typing_box{
-                        font-size: 26px;
+                        font-size: 34px;
                         font-family: $medium;
                         margin-bottom: 24px;
                     }
@@ -68,44 +71,10 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
 
                 .intro_btn{
                     margin-top: 40px;
+                    display:flex;
+                    gap: 10px;
                     a{
                         color:white;
-                    }
-                }
-            }
-            .visual_right{
-                flex: 1;
-                padding-left: 10%;
-                .img_box{
-                    position: relative;
-                    border-radius:12px;
-                    > img{
-                        display:block;
-                        width:100%;
-                        max-height: 548px;
-                        margin-left: auto;
-                        border-radius: 12px;
-                        object-fit: cover;
-                    }
-                    .img_deco{
-                        position: absolute;
-                        display: inline-block;
-                        border-radius: 12px;
-
-                        &.circle{
-                            position: absolute;
-                            left: -70px; bottom: -70px;
-                            animation: circleStart 15s infinite linear;
-                            z-index: 1;
-                            img{
-                                display:block;
-                            }
-
-                            @keyframes circleStart{
-                                0%{transform: rotate(0);}
-                                100%{transform: rotate(360deg);}
-                            }
-                        }
                     }
                 }
             }
@@ -117,7 +86,7 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
             .content{
                 flex-direction: column-reverse;
                 justify-content: center;
-                .visual_left{
+                .visual{
                     flex: unset;
                     .txt_wrap{
                         margin-top: 20px;
@@ -146,20 +115,7 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
                     }
     
                     .intro_btn{
-                        text-align: center;
-                    }
-                }
-                .visual_right{
-                    flex: unset;
-                    padding-left: 0;
-                    .img_box{
-                        img{
-                            max-width: 150px;
-                            border-radius: 12px;
-                        }
-                        .img_deco{
-                            display:none;
-                        }
+                        justify-content: center;
                     }
                 }
             }
@@ -240,19 +196,18 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
             .left{
                 .img_box{
                     position: relative;
+                    perspective: 1000px;
                     span{
                         display:flex;
                         align-items: center;
                         justify-content: center;
-                        width:110px; height:110px;
+                        width:90px; height:90px;
                         position: absolute;
                         border-radius:12px;
                         border-radius: 50%;
                         img{
                             max-width: 60px;
-
                         }
-
                         &.icon_01{
                             top: -55px;
                             left: -55px;
@@ -261,17 +216,17 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
                         &.icon_02{
                             top: -55px;
                             right: -55px;
-                            background-color:#00eecf;
+                            background-color:#34abe0;
                         }
                         &.icon_03{
                             bottom: -55px;
                             left: -55px;
-                            background-color: #5c5e70;
+                            background-color: #ff613d;
                         }
                         &.icon_04{
                             bottom: -55px;
                             right: -55px;
-                            background-color:#5c5e70;
+                            background-color:#00eecf;
                         }
                     }
                     img{display:block; width:100%; border-radius: 12px;}
@@ -981,7 +936,7 @@ article{width:100%; overflow:hidden; padding-bottom:150px;}
                                         text-align: center;
                                         line-height: 95px;
                                         color:white;
-                                        font-size: 32px;
+                                        font-size: 48px;
                                     }
                                     > div{
                                         display:inline-block;
